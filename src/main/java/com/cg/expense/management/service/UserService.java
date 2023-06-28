@@ -25,6 +25,6 @@ public class UserService {
     }
 
     public Optional<?> checkUserExists(String userName) {
-        return userRepository.findByUserName(userName);
+        return userRepository.findByUsername(userName);
     }
 }
